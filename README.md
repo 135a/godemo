@@ -56,4 +56,33 @@ fix修改bug分支
 
 注意:如果你有尚未保留在git缓存的东西,必须先add、commit再Push
 
+远程仓库是新建的,本来就没有任何分支,直接一次性绑定即可`git push --set-upstream origin main`
+![img_5.png](img_5.png)
 
+现在:
+![img_6.png](img_6.png)
+![img_7.png](img_7.png)
+推送完成
+
+
+# 如果你不喜欢命令行
+idea提供了很多插件可以使用
+点击提交相当于git add .+git commit -m "...",
+点击提交并推送相当于:git add .+git commit -m "..."+git push
+![img_8.png](img_8.png)
+
+# commit 后的注释是必写的,如果懒得写,可以自己找个插件，接入ai,自动生成
+
+![img_9.png](img_9.png)
+
+# 关于分支
+在仓库新建一个分支:
+点击branch再点击New,
+![img_10.png](img_10.png)
+创建选项有个main,是在问你，你的新分支的初始代码从哪个分支拉，我们暂时只有一个分支不用管
+![img_11.png](img_11.png)
+创建完成
+![img_12.png](img_12.png)
+# 我们测试一下分支
+新建一个文件并推到远程仓库
+![img_13.png](img_13.png)
