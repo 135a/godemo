@@ -86,3 +86,7 @@ idea提供了很多插件可以使用
 # 我们测试一下分支
 新建一个文件并推到远程仓库
 ![img_13.png](img_13.png)
+
+# 我们切换到dev分支
+先执行git fetch 把远程最新信息拉下来
+git switch dev
