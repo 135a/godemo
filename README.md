@@ -90,3 +90,4 @@ idea提供了很多插件可以使用
 # 我们切换到dev分支
 先执行git fetch 把远程最新信息拉下来
 git switch dev
+![img_15.png](img_15.png)
